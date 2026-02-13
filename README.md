@@ -31,7 +31,7 @@ FBSIM_API_HOST=http://localhost:8080
 
 Alternatively, to run the server as a container, one can `podman run` / `docker run` a published version of the image
 ```
-ghcr.io/whatsacomputertho/fbsim-web:v1.0.0-beta.1
+ghcr.io/whatsacomputertho/fbsim-web:v1.0.0-beta.2
 ```
 
 Or one can build locally by cloning this repository and running the following (here, `podman` can optionally be replaced with `docker`).
