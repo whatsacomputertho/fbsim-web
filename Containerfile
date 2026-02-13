@@ -13,4 +13,4 @@ FROM node:20-bookworm
 COPY --from=copyfiles /copyfiles/ /opt/fbsim-ui/
 WORKDIR /opt/fbsim-ui
 RUN npm install --omit=dev
-CMD ["npm", "run", "server:prod"]
+CMD ["npm", "run", "prod"]
