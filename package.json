@@ -1,6 +1,6 @@
 {
   "name": "fbsim-web",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "type": "module",
   "description": "A web-based american football simulation user interface built atop the fbsim-core Rust crate",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@whatsacomputertho/fbsim-ui": "file:../fbsim-ui",
+    "@whatsacomputertho/fbsim-ui": "^1.0.0-beta.2",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
