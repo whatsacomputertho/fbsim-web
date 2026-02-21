@@ -3,7 +3,6 @@ FROM scratch AS copyfiles
 COPY dist/*.js /copyfiles/dist/
 COPY static/css/*.css /copyfiles/static/css/
 COPY static/img/*.png /copyfiles/static/img/
-COPY static/img/*.jpg /copyfiles/static/img/
 COPY static/js/*.js /copyfiles/static/js/
 COPY static/views/*.hbs /copyfiles/static/views/
 COPY package.json package-lock.json LICENSE /copyfiles/
